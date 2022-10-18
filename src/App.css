@@ -12,6 +12,18 @@
   margin-left: 50.5em;
 }
 
+.NavMenu{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: flex-start;
+}
+
+.MenuItems{
+  margin: 0 0.4em 0 0;
+  padding: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
