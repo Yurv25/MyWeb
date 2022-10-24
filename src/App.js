@@ -8,6 +8,9 @@ function App() {
       <header>
         <Nav />
       </header>
+      <main>
+        
+      </main>
     </div>
   );
 }
