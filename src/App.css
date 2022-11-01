@@ -1,3 +1,6 @@
+:root{
+  max-width: 1900px;
+}
 .App {
   text-align: center;
 }
@@ -7,6 +10,13 @@
   pointer-events: none;
 }
 
+.container-module--container{
+  margin: 0 auto;
+}
+
+main {
+  display: block;
+}
 .MyHeader{
   position: relative;
   margin-left: 80.5em;
@@ -26,12 +36,18 @@
 
 .ButtonNav{
   padding: 0.4em 1em;
-    font-weight: 700;
+    font-weight: 1000;
     transition-duration: .2s;
     transition-property: background-color;
-    color: rgba(48, 88, 63, 0.842);
+    color: rgba(250, 253, 251, 0.842);
+}
+.menu-link{
+  display: block;
 }
 
+.btnNavColor{
+  background-color: #61dafb;
+}
 .content{
   padding-top: 3em;
   padding-bottom: 4em;
@@ -43,6 +59,21 @@
 
 .align-center{
   text-align: center;
+}
+
+.subtitle{
+  margin-top: 0.6em;
+  font-size: clamp(1.225em,2vw,1.6em);
+  line-height: 1.5;
+}
+
+.block-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.index-module--subtitle{
+  max-width: 32em;
 }
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

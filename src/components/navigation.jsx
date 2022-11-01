@@ -8,7 +8,7 @@ const Nav = () =>{
                 <li className="MenuItems">Yuri</li>
                 <NavItems text="Portfolio"/>
                 <NavItems text="About"/>
-                <NavItems text="Contact" btnClass="ButtonNav" />
+                <NavItems text="Contact" btnClass="ButtonNav menu-link btnNavColor" />
                 <li></li>
            </ul>
         </nav>
