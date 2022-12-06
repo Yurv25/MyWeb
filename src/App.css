@@ -1,5 +1,5 @@
-:root{
-  max-width: 1900px;
+body{
+  text-align: center;
 }
 .App {
   text-align: center;
@@ -51,10 +51,6 @@ main {
 .content{
   padding-top: 3em;
   padding-bottom: 4em;
-}
-
-.main-header{
-
 }
 
 .align-center{
