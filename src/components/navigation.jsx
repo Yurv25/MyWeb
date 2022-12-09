@@ -3,7 +3,7 @@ import NavItems from "./nav_items";
 
 const Nav = () =>{
     return(
-        <section id="menu">
+        <header id="menu">
         <div className="container-fluid">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler">
                 <span class="navbar-toggler-icon"></span>
@@ -22,7 +22,7 @@ const Nav = () =>{
             </nav>
             
         </div>
-        </section>
+        </header>
     );
 }
 
