@@ -7,8 +7,7 @@ import Intro from './components/intro';
 function App() {
   return (
     <div>
-      <Nav />   
-      <Intro />
+      <Nav />
     </div>
   );
 }
