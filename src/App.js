@@ -6,7 +6,7 @@ import Intro from './components/intro';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Nav />
     </div>
   );
